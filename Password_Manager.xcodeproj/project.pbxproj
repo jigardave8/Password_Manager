@@ -14,6 +14,7 @@
 		B789F9282AC7887200A84E4F /* Password_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B789F9272AC7887200A84E4F /* Password_ManagerTests.swift */; };
 		B789F9322AC7887200A84E4F /* Password_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B789F9312AC7887200A84E4F /* Password_ManagerUITests.swift */; };
 		B789F9342AC7887200A84E4F /* Password_ManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B789F9332AC7887200A84E4F /* Password_ManagerUITestsLaunchTests.swift */; };
+		B789F9412AC7B0C200A84E4F /* PasswordGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B789F9402AC7B0C200A84E4F /* PasswordGeneratorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B789F92D2AC7887200A84E4F /* Password_ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Password_ManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B789F9312AC7887200A84E4F /* Password_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_ManagerUITests.swift; sourceTree = "<group>"; };
 		B789F9332AC7887200A84E4F /* Password_ManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_ManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B789F9402AC7B0C200A84E4F /* PasswordGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneratorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B789F9152AC7886900A84E4F /* Password_ManagerApp.swift */,
 				B789F9172AC7886900A84E4F /* ContentView.swift */,
+				B789F9402AC7B0C200A84E4F /* PasswordGeneratorView.swift */,
 				B789F9192AC7887000A84E4F /* Assets.xcassets */,
 				B789F91B2AC7887000A84E4F /* Password_Manager.entitlements */,
 				B789F91C2AC7887000A84E4F /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				B789F9182AC7886900A84E4F /* ContentView.swift in Sources */,
 				B789F9162AC7886900A84E4F /* Password_ManagerApp.swift in Sources */,
+				B789F9412AC7B0C200A84E4F /* PasswordGeneratorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
